@@ -5,18 +5,18 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "enter your gmax md session id here",
+SESSION_ID: process.env.SESSION_ID || "GMAX-MD~2MpSxQSK#KnY2OnrxcSeN1PyTK2N5Hsptx6QLIlDXqV3yRf9oAdc",
  
 PREFIX: process.env.PREFIX || ".",
 // Enter Your Desired Prefix
 
-BOT_NAME: process.env.BOT_NAME || "『 𝐆𝐌𝐀𝐗 𝐌𝐃 』",
+BOT_NAME: process.env.BOT_NAME || "『 V-blib 』",
 // Enter Your Bot Name
 
 ANTI_VV: process.env.ANTI_VV || "true",
 // Allow Viewoncs view Unlimited 
  
-CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -25,7 +25,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "255622053093",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "254705691318",
 // Set Owner Name
 
 OWNER_NAME: process.env.OWNER_NAME || "sɪʀ ɢᴍᴀx",
@@ -40,7 +40,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/6BMJmGY/mrfrankofc.jpg",
 LIVE_MSG: process.env.LIVE_MSG || "> [🎐] ɢᴍᴀx MD ɪs ᴏɴʟɪɴᴇ*⚡",
 // add alive msg here 
 
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
 AUTO_REACT: process.env.AUTO_REACT || "false",
@@ -49,7 +49,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words
 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
@@ -79,7 +79,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
-AUTO_TYPING: process.env.AUTO_TYPING || "false",
+AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing  
  
 READ_CMD: process.env.READ_CMD || "true",
